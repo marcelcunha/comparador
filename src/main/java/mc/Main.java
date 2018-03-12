@@ -15,13 +15,12 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Comparador c = new Comparador("/run/media/marcel/Marcel-HD/Drivers");
-       
-      // c.abrirDiretorio();
-       
-       //c.mostrarLista();
-       //c.listarArquivosCalcularHash();
-       c.comparar();
+        Comparador c = new Comparador("E:\\Programas");
+
+        // c.abrirDiretorio();
+        //c.mostrarLista();
+        //c.listarArquivosCalcularHash();
+         c.comparar();
+        
     }
-    
 }
